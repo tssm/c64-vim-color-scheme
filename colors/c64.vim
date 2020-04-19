@@ -25,8 +25,8 @@ hi SpecialKey  guifg=#606060 guibg=NONE    gui=NONE cterm=NONE
 " Side columns {{{
 
 hi LineNr      guifg=#606060 guibg=NONE    gui=NONE cterm=NONE
-hi link LineNr EndOfBuffer
-hi link LineNr NonText
+hi! link EndOfBuffer LineNr
+hi! link NonText     LineNr
 hi SignColumn  guifg=NONE    guibg=NONE    gui=NONE cterm=NONE
 hi VertSplit   guifg=bg      guibg=#867ade gui=NONE cterm=NONE
 
@@ -153,40 +153,40 @@ let g:terminal_color_15='#000000' " Black
 hi Comment guifg=#8a8a8a guibg=NONE gui=NONE cterm=NONE
 
 hi Constant guifg=#b3ec91 guibg=NONE gui=NONE cterm=NONE
-hi link Constant String
-hi link Constant Character
-hi link Constant Number
-hi link Constant Boolean
-hi link Constant Float
+hi! link String    Constant
+hi! link Character Constant
+hi! link Number    Constant
+hi! link Boolean   Constant
+hi! link Float     Constant
 
 hi Identifier guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-hi link Identifier Function
+hi! link Function Identifier
 
 hi Statement guifg=#84c5cc guibg=NONE gui=NONE cterm=NONE
-hi link Statement Conditional
-hi link Statement Repeat
-hi link Statement Label
-hi link Statement Operator
-hi link Statement Keyword
-hi link Statement Exception
+hi! link Conditional Statement
+hi! link Repeat      Statement
+hi! link Label       Statement
+hi! link Operator    Statement
+hi! link Keyword     Statement
+hi! link Exception   Statement
 
 hi PreProc guifg=#9351b6 guibg=NONE gui=NONE cterm=NONE
-hi link PreProc Include
-hi link PreProc Define
-hi link PreProc Macro
-hi link PreProc PreCondit
+hi! link Include   PreProc
+hi! link Define    PreProc
+hi! link Macro     PreProc
+hi! link PreCondit PreProc
 
 hi Type guifg=#72b14b guibg=NONE gui=NONE cterm=NONE
-hi link Type StorageClass
-hi link Type Structure
-hi link Type Typedef
+hi! link StorageClass Type
+hi! link Structure    Type
+hi! link Typedef      Type
 
 hi Special guifg=#d5df7c guibg=NONE gui=NONE cterm=NONE
-hi link Special SpecialChar
-hi link Special Tag
-hi link Special Delimiter
-hi link Special SpecialComment
-hi link Special Debug
+hi! link SpecialChar    Special
+hi! link Tag            Special
+hi! link Delimiter      Special
+hi! link SpecialComment Special
+hi! link Debug          Special
 
 hi Underlined guifg=NONE       guibg=NONE    gui=underline cterm=NONE
 hi Ignore     guifg=#b3b3b3    guibg=NONE    gui=NONE      cterm=NONE
