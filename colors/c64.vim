@@ -14,21 +14,21 @@ hi Normal guifg=#867ade guibg=#483aaa
 " Text area {{{
 
 " Conceal
-hi ColorColumn guifg=#867ade  guibg=#867ade gui=NONE cterm=NONE
-hi Directory   guifg=#84c5cc  guibg=NONE gui=NONE cterm=NONE
-hi MatchParen  guifg=#867ade  guibg=#867ade gui=NONE cterm=NONE
-hi SpecialKey  guifg=#606060  guibg=NONE gui=NONE cterm=NONE
+hi ColorColumn guifg=#867ade guibg=#867ade gui=NONE cterm=NONE
+hi Directory   guifg=#84c5cc guibg=NONE    gui=NONE cterm=NONE
+hi MatchParen  guifg=#867ade guibg=#867ade gui=NONE cterm=NONE
+hi SpecialKey  guifg=#606060 guibg=NONE    gui=NONE cterm=NONE
 " Whitespace
 
 " }}}
 
 " Side columns {{{
 
-hi LineNr       guifg=#606060    guibg=NONE gui=NONE cterm=NONE
+hi LineNr      guifg=#606060 guibg=NONE    gui=NONE cterm=NONE
 hi link LineNr EndOfBuffer
 hi link LineNr NonText
-hi SignColumn   guifg=NONE       guibg=NONE gui=NONE cterm=NONE
-hi VertSplit    guifg=bg guibg=#867ade gui=NONE cterm=NONE
+hi SignColumn  guifg=NONE    guibg=NONE    gui=NONE cterm=NONE
+hi VertSplit   guifg=bg      guibg=#867ade gui=NONE cterm=NONE
 
 " }}}
 
@@ -36,10 +36,10 @@ hi VertSplit    guifg=bg guibg=#867ade gui=NONE cterm=NONE
 
 hi ErrorMsg   guifg=#ffffff guibg=#924a40 gui=NONE cterm=NONE
 " MsgSeparator
-hi ModeMsg    guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-hi MoreMsg    guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-hi Question   guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
-hi Title      guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi ModeMsg    guifg=#ffffff guibg=NONE    gui=NONE cterm=NONE
+hi MoreMsg    guifg=#ffffff guibg=NONE    gui=NONE cterm=NONE
+hi Question   guifg=#ffffff guibg=NONE    gui=NONE cterm=NONE
+hi Title      guifg=#ffffff guibg=NONE    gui=NONE cterm=NONE
 hi WarningMsg guifg=#000000 guibg=#d5df7c gui=NONE cterm=NONE
 
 " }}}
@@ -59,7 +59,7 @@ hi PmenuThumb guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
 " hi CursorIM
 hi CursorColumn guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
 hi CursorLine   guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#606060 guibg=NONE gui=NONE cterm=NONE
+hi CursorLineNr guifg=#606060 guibg=NONE    gui=NONE cterm=NONE
 
 " }}}
 
@@ -90,8 +90,8 @@ hi QuickFixLine guifg=#000000 guibg=#b3ec91 gui=NONE cterm=NONE
 
 " Selection {{{
 
-hi Visual     guifg=NONE    guibg=#606060 gui=NONE cterm=NONE
-hi VisualNOS  guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
+hi Visual    guifg=NONE guibg=#606060 gui=NONE cterm=NONE
+hi VisualNOS guifg=NONE guibg=#9351b6 gui=NONE cterm=NONE
 
 " }}}
 
@@ -189,9 +189,9 @@ hi link Special SpecialComment
 hi link Special Debug
 
 hi Underlined guifg=NONE       guibg=NONE    gui=underline cterm=NONE
-hi Ignore     guifg=#b3b3b3    guibg=NONE gui=NONE cterm=NONE
-hi Error      guifg=#000000    guibg=#c18178 gui=NONE cterm=NONE
-hi Todo       guifg=background guibg=#8a8a8a gui=NONE cterm=NONE
+hi Ignore     guifg=#b3b3b3    guibg=NONE    gui=NONE      cterm=NONE
+hi Error      guifg=#000000    guibg=#c18178 gui=NONE      cterm=NONE
+hi Todo       guifg=background guibg=#8a8a8a gui=NONE      cterm=NONE
 
 " }}}
 
