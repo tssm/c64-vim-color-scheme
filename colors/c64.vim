@@ -14,42 +14,42 @@ hi Normal guifg=#867ade guibg=#483aaa
 " Text area {{{
 
 " Conceal
-hi ColorColumn guifg=#867ade  guibg=#867ade
-hi Directory   guifg=#84c5cc  guibg=NONE
-hi MatchParen  guifg=#867ade  guibg=#867ade
-hi SpecialKey  guifg=#606060  guibg=NONE
+hi ColorColumn guifg=#867ade  guibg=#867ade gui=NONE cterm=NONE
+hi Directory   guifg=#84c5cc  guibg=NONE gui=NONE cterm=NONE
+hi MatchParen  guifg=#867ade  guibg=#867ade gui=NONE cterm=NONE
+hi SpecialKey  guifg=#606060  guibg=NONE gui=NONE cterm=NONE
 " Whitespace
 
 " }}}
 
 " Side columns {{{
 
-hi LineNr       guifg=#606060    guibg=NONE
+hi LineNr       guifg=#606060    guibg=NONE gui=NONE cterm=NONE
 hi link LineNr EndOfBuffer
 hi link LineNr NonText
-hi SignColumn   guifg=NONE       guibg=NONE
-hi VertSplit    guifg=background guibg=#867ade
+hi SignColumn   guifg=NONE       guibg=NONE gui=NONE cterm=NONE
+hi VertSplit    guifg=bg guibg=#867ade gui=NONE cterm=NONE
 
 " }}}
 
 " Command line {{{
 
-hi ErrorMsg   guifg=#ffffff guibg=#924a40
+hi ErrorMsg   guifg=#ffffff guibg=#924a40 gui=NONE cterm=NONE
 " MsgSeparator
-hi ModeMsg    guifg=#ffffff guibg=NONE
-hi MoreMsg    guifg=#ffffff guibg=NONE
-hi Question   guifg=#ffffff guibg=NONE
-hi Title      guifg=#ffffff guibg=NONE
-hi WarningMsg guifg=#000000 guibg=#d5df7c
+hi ModeMsg    guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi MoreMsg    guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi Question   guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi Title      guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi WarningMsg guifg=#000000 guibg=#d5df7c gui=NONE cterm=NONE
 
 " }}}
 
 " Completion {{{
 
-hi Pmenu      guifg=#ffffff guibg=#867ade
-hi PmenuSel   guifg=#ffffff guibg=#9351b6
-hi PmenuSbar  guifg=NONE    guibg=#ffffff
-hi PmenuThumb guifg=NONE    guibg=#9351b6
+hi Pmenu      guifg=#ffffff guibg=#867ade gui=NONE cterm=NONE
+hi PmenuSel   guifg=#ffffff guibg=#9351b6 gui=NONE cterm=NONE
+hi PmenuSbar  guifg=NONE    guibg=#ffffff gui=NONE cterm=NONE
+hi PmenuThumb guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
 
 " }}}
 
@@ -57,58 +57,58 @@ hi PmenuThumb guifg=NONE    guibg=#9351b6
 
 " hi Cursor
 " hi CursorIM
-hi CursorColumn guifg=NONE    guibg=#9351b6
-hi CursorLine   guifg=NONE    guibg=#9351b6
-hi CursorLineNr guifg=#606060 guibg=NONE gui=NONE
+hi CursorColumn guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
+hi CursorLine   guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#606060 guibg=NONE gui=NONE cterm=NONE
 
 " }}}
 
 " Diff {{{
 
-hi DiffAdd    guifg=#483aaa guibg=#72b14b
-hi DiffChange guifg=NONE    guibg=#99692d
-hi DiffDelete guifg=NONE    guibg=#924a40
-hi DiffText   guifg=#ffffff guibg=#9351b6
+hi DiffAdd    guifg=#483aaa guibg=#72b14b gui=NONE cterm=NONE
+hi DiffChange guifg=NONE    guibg=#99692d gui=NONE cterm=NONE
+hi DiffDelete guifg=NONE    guibg=#924a40 gui=NONE cterm=NONE
+hi DiffText   guifg=#ffffff guibg=#9351b6 gui=NONE cterm=NONE
 
 " }}}
 
 " Folds {{{
 
-hi Folded     guifg=#84c5cc guibg=NONE
-hi FoldColumn guifg=#84c5cc guibg=NONE
+hi Folded     guifg=#84c5cc guibg=NONE gui=NONE cterm=NONE
+hi FoldColumn guifg=#84c5cc guibg=NONE gui=NONE cterm=NONE
 
 " }}}
 
 " Search / Substitution {{{
 
-hi IncSearch    guifg=#d5df7c guibg=#675200
-hi Search       guifg=#ffffff guibg=#72b14b
+hi IncSearch    guifg=#d5df7c guibg=#675200 gui=NONE cterm=NONE
+hi Search       guifg=#ffffff guibg=#72b14b gui=NONE cterm=NONE
 " Substitute
-hi QuickFixLine guifg=#000000 guibg=#b3ec91
+hi QuickFixLine guifg=#000000 guibg=#b3ec91 gui=NONE cterm=NONE
 
 " }}}
 
 " Selection {{{
 
-hi Visual     guifg=NONE    guibg=#606060
-hi VisualNOS  guifg=NONE    guibg=#9351b6
+hi Visual     guifg=NONE    guibg=#606060 gui=NONE cterm=NONE
+hi VisualNOS  guifg=NONE    guibg=#9351b6 gui=NONE cterm=NONE
 
 " }}}
 
 " Spelling {{{
 
-hi SpellBad   guifg=NONE guibg=NONE gui=undercurl guisp=#924a40
-hi SpellCap   guifg=NONE guibg=NONE gui=undercurl guisp=#924a40
-hi SpellLocal guifg=NONE guibg=NONE gui=undercurl guisp=#72b14b
-hi SpellRare  guifg=NONE guibg=NONE gui=undercurl guisp=#72b14b
+hi SpellBad   guifg=NONE guibg=NONE gui=undercurl guisp=#924a40 cterm=NONE
+hi SpellCap   guifg=NONE guibg=NONE gui=undercurl guisp=#924a40 cterm=NONE
+hi SpellLocal guifg=NONE guibg=NONE gui=undercurl guisp=#72b14b cterm=NONE
+hi SpellRare  guifg=NONE guibg=NONE gui=undercurl guisp=#72b14b cterm=NONE
 
 " }}}
 
 " Status line {{{
 
-hi StatusLine   guifg=#867ade guibg=#ffffff
-hi StatusLineNC guifg=#867ade guibg=#ffffff
-hi WildMenu     guifg=#867ade guibg=#ffffff
+hi StatusLine   guibg=#867ade guifg=#ffffff gui=NONE cterm=NONE
+hi StatusLineNC guibg=#867ade guifg=#ffffff gui=NONE cterm=NONE
+hi WildMenu     guifg=#867ade guibg=#ffffff gui=NONE cterm=NONE
 " hi StatusLineTerm
 " hi StatusLineTermNC
 
@@ -116,9 +116,9 @@ hi WildMenu     guifg=#867ade guibg=#ffffff
 
 " Tabline {{{
 
-hi TabLine     guifg=#ffffff guibg=#867ade
-hi TabLineFill guifg=#867ade guibg=#ffffff
-hi TabLineSel  guifg=#867ade guibg=#ffffff
+hi TabLine     guifg=#ffffff guibg=#867ade gui=NONE cterm=NONE
+hi TabLineFill guifg=#867ade guibg=#ffffff gui=NONE cterm=NONE
+hi TabLineSel  guifg=#867ade guibg=#ffffff gui=NONE cterm=NONE
 
 " }}}
 
@@ -150,19 +150,19 @@ let g:terminal_color_15='#000000' " Black
 
 " Text {{{
 
-hi Comment guifg=#8a8a8a guibg=NONE
+hi Comment guifg=#8a8a8a guibg=NONE gui=NONE cterm=NONE
 
-hi Constant guifg=#b3ec91 guibg=NONE
+hi Constant guifg=#b3ec91 guibg=NONE gui=NONE cterm=NONE
 hi link Constant String
 hi link Constant Character
 hi link Constant Number
 hi link Constant Boolean
 hi link Constant Float
 
-hi Identifier guifg=#ffffff guibg=NONE
+hi Identifier guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
 hi link Identifier Function
 
-hi Statement guifg=#84c5cc guibg=NONE gui=NONE
+hi Statement guifg=#84c5cc guibg=NONE gui=NONE cterm=NONE
 hi link Statement Conditional
 hi link Statement Repeat
 hi link Statement Label
@@ -170,28 +170,28 @@ hi link Statement Operator
 hi link Statement Keyword
 hi link Statement Exception
 
-hi PreProc guifg=#9351b6 guibg=NONE
+hi PreProc guifg=#9351b6 guibg=NONE gui=NONE cterm=NONE
 hi link PreProc Include
 hi link PreProc Define
 hi link PreProc Macro
 hi link PreProc PreCondit
 
-hi Type guifg=#72b14b guibg=NONE
+hi Type guifg=#72b14b guibg=NONE gui=NONE cterm=NONE
 hi link Type StorageClass
 hi link Type Structure
 hi link Type Typedef
 
-hi Special guifg=#d5df7c guibg=NONE
+hi Special guifg=#d5df7c guibg=NONE gui=NONE cterm=NONE
 hi link Special SpecialChar
 hi link Special Tag
 hi link Special Delimiter
 hi link Special SpecialComment
 hi link Special Debug
 
-hi Underlined guifg=NONE       guibg=NONE    gui=underline
-hi Ignore     guifg=#b3b3b3    guibg=NONE
-hi Error      guifg=#000000    guibg=#c18178
-hi Todo       guifg=background guibg=#8a8a8a
+hi Underlined guifg=NONE       guibg=NONE    gui=underline cterm=NONE
+hi Ignore     guifg=#b3b3b3    guibg=NONE gui=NONE cterm=NONE
+hi Error      guifg=#000000    guibg=#c18178 gui=NONE cterm=NONE
+hi Todo       guifg=background guibg=#8a8a8a gui=NONE cterm=NONE
 
 " }}}
 
