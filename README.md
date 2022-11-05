@@ -1,6 +1,5 @@
-(Maybe too) low contrast color scheme based on Commodore 64.
-[Source][source].
+A color scheme using the Commodore 64 [palette][source].
 
 ![Screenshot](screenshot.png)
 
-[source]: https://bigcode.wordpress.com/2016/10/30/commodore-64-color-codes/
+[source]: http://unusedino.de/ec64/technical/misc/vic656x/colors/
