@@ -26,7 +26,7 @@ hi LineNr      guifg=#606060 guibg=NONE    gui=NONE cterm=NONE
 hi! link EndOfBuffer LineNr
 hi! link NonText     LineNr
 hi SignColumn  guifg=NONE    guibg=NONE    gui=NONE cterm=NONE
-hi VertSplit   guifg=bg      guibg=#867ade gui=NONE cterm=NONE
+hi VertSplit   guifg=#867aed guibg=#867ade gui=NONE cterm=NONE
 
 " }}}
 
