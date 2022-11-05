@@ -157,7 +157,7 @@ hi! link Number    Constant
 hi! link Boolean   Constant
 hi! link Float     Constant
 
-hi Identifier guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#99692d guibg=NONE gui=NONE cterm=NONE
 hi! link Function Identifier
 
 hi Statement guifg=#84c5cc guibg=NONE gui=NONE cterm=NONE
