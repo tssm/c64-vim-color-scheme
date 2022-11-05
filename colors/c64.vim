@@ -105,7 +105,7 @@ hi SpellRare  guifg=NONE guibg=NONE gui=undercurl guisp=#72b14b cterm=NONE
 " Status line {{{
 
 hi StatusLine   guibg=#867ade guifg=#ffffff gui=NONE cterm=NONE
-hi StatusLineNC guibg=#867ade guifg=#ffffff gui=NONE cterm=NONE
+hi StatusLineNC guibg=#867ade guifg=#483aaa gui=NONE cterm=NONE
 hi WildMenu     guifg=#867ade guibg=#ffffff gui=NONE cterm=NONE
 " hi StatusLineTerm
 " hi StatusLineTermNC
