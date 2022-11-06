@@ -73,8 +73,8 @@ hi DiffText   guifg=#9a6759 guibg=#b8c76f gui=NONE
 
 " Folds {{{
 
-hi Folded     guifg=#70a4b2 guibg=NONE gui=NONE
-hi FoldColumn guifg=#70a4b2 guibg=NONE gui=NONE
+hi! link Folded LineNr
+hi! link FoldColumn LineNr
 
 " }}}
 
