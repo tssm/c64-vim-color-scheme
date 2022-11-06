@@ -58,6 +58,8 @@ hi PmenuThumb guifg=NONE    guibg=#ffffff gui=NONE
 hi CursorColumn guifg=NONE guibg=#ffffff gui=NONE
 hi! link CursorLine CursorColumn
 hi! link CursorLineNr CursorColumn
+" TermCursor
+" TermCursorNC
 hi! link QuickFixLine CursorColumn
 
 " }}}
@@ -120,30 +122,6 @@ hi TabLineSel  guifg=#6c5eb5 guibg=#ffffff gui=NONE
 
 " }}}
 
-" Terminal {{{
-
-let g:terminal_color_0='#352879' " Black (blue)
-let g:terminal_color_1='#68372b' " Red
-let g:terminal_color_2='#588d43' " Green
-let g:terminal_color_3='#6f4f25' " Yellow (orange)
-let g:terminal_color_4='#000000' " Blue (black)
-let g:terminal_color_5='#6f3d86' " Magenta (purple)
-let g:terminal_color_6='#70a4b2' " Cyan
-let g:terminal_color_7='#6c6c6c' " White (grey)
-let g:terminal_color_8='#444444' " Light black (dark grey)
-let g:terminal_color_9='#9a6759' " Light red
-let g:terminal_color_10='#9ad284' " Light green
-let g:terminal_color_11='#b8c76f' " Light yellow
-let g:terminal_color_12='#433900' " Light blue (brown)
-let g:terminal_color_13='#6c5eb5' " Light magenta
-let g:terminal_color_14='#959595' " Light cyan (gray)
-let g:terminal_color_15='#ffffff' " White
-
-" TermCursor
-
-" TermCursorNC
-" }}}
-
 " }}}
 
 " Text {{{
@@ -190,6 +168,27 @@ hi Underlined guifg=NONE       guibg=NONE    gui=underline
 hi Ignore     guifg=#959595    guibg=NONE    gui=NONE
 hi Error      guifg=#000000    guibg=#9a6759 gui=NONE
 hi Todo       guifg=background guibg=#6c6c6c gui=NONE
+
+" Terminal {{{
+
+let g:terminal_color_0='#352879' " Black (blue)
+let g:terminal_color_1='#68372b' " Red
+let g:terminal_color_2='#588d43' " Green
+let g:terminal_color_3='#6f4f25' " Yellow (orange)
+let g:terminal_color_4='#000000' " Blue (black)
+let g:terminal_color_5='#6f3d86' " Magenta (purple)
+let g:terminal_color_6='#70a4b2' " Cyan
+let g:terminal_color_7='#6c6c6c' " White (grey)
+let g:terminal_color_8='#444444' " Light black (dark grey)
+let g:terminal_color_9='#9a6759' " Light red
+let g:terminal_color_10='#9ad284' " Light green
+let g:terminal_color_11='#b8c76f' " Light yellow
+let g:terminal_color_12='#433900' " Light blue (brown)
+let g:terminal_color_13='#6c5eb5' " Light magenta
+let g:terminal_color_14='#959595' " Light cyan (gray)
+let g:terminal_color_15='#ffffff' " White
+
+" }}}
 
 " }}}
 
