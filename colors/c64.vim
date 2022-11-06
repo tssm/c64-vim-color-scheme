@@ -88,8 +88,8 @@ hi Search    guifg=NONE guibg=#000000 gui=NONE
 
 " Selection {{{
 
-hi Visual    guifg=NONE guibg=#444444 gui=NONE
-hi VisualNOS guifg=NONE guibg=#6f3d86 gui=NONE
+hi Visual guifg=NONE guibg=#000000 gui=NONE
+hi! link VisualNOS Visual
 
 " }}}
 
