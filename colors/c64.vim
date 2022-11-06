@@ -46,8 +46,8 @@ hi WarningMsg guifg=#000000 guibg=#b8c76f gui=NONE
 
 hi Pmenu      guifg=#ffffff guibg=#6c5eb5 gui=NONE
 hi PmenuSel   guifg=#ffffff guibg=#6f3d86 gui=NONE
-hi PmenuSbar  guifg=NONE    guibg=#ffffff gui=NONE
-hi PmenuThumb guifg=NONE    guibg=#6f3d86 gui=NONE
+hi PmenuSbar  guifg=NONE    guibg=#6f3d86 gui=NONE
+hi PmenuThumb guifg=NONE    guibg=#ffffff gui=NONE
 
 " }}}
 
