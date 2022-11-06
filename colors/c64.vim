@@ -14,7 +14,7 @@ hi Normal guifg=#6c5eb5 guibg=#352879
 " Conceal
 hi ColorColumn guifg=#6c5eb5 guibg=#6c5eb5 gui=NONE
 hi Directory   guifg=#70a4b2 guibg=NONE    gui=NONE
-hi MatchParen  guifg=#6c5eb5 guibg=#6c5eb5 gui=NONE
+hi MatchParen  guifg=#352879 guibg=#6f3d86 gui=NONE
 hi SpecialKey  guifg=#444444 guibg=NONE    gui=NONE
 " Whitespace
 
