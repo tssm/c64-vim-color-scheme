@@ -64,10 +64,10 @@ hi! link QuickFixLine CursorColumn
 
 " Diff {{{
 
-hi DiffAdd    guifg=#352879 guibg=#588d43 gui=NONE
-hi DiffChange guifg=NONE    guibg=#6f4f25 gui=NONE
-hi DiffDelete guifg=NONE    guibg=#68372b gui=NONE
-hi DiffText   guifg=#ffffff guibg=#6f3d86 gui=NONE
+hi DiffAdd    guifg=bg      guibg=#9ad284 gui=NONE
+hi DiffChange guifg=bg      guibg=#b8c76f gui=NONE
+hi DiffDelete guifg=bg      guibg=#9a6759 gui=NONE
+hi DiffText   guifg=#9a6759 guibg=#b8c76f gui=NONE
 
 " }}}
 
