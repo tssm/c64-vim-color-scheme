@@ -115,7 +115,7 @@ hi WildMenu     guifg=#6c5eb5 guibg=#ffffff gui=NONE
 " Tabline {{{
 
 hi TabLine     guifg=#ffffff guibg=#6c5eb5 gui=NONE
-hi TabLineFill guifg=#6c5eb5 guibg=#ffffff gui=NONE
+hi TabLineFill guifg=#ffffff guibg=#6c5eb5 gui=NONE
 hi TabLineSel  guifg=#6c5eb5 guibg=#ffffff gui=NONE
 
 " }}}
