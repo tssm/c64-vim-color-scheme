@@ -55,9 +55,10 @@ hi PmenuThumb guifg=NONE    guibg=#ffffff gui=NONE
 
 " hi Cursor
 " hi CursorIM
-hi CursorColumn guifg=NONE    guibg=#6f3d86 gui=NONE
-hi CursorLine   guifg=NONE    guibg=#6f3d86 gui=NONE
-hi CursorLineNr guifg=#444444 guibg=NONE    gui=NONE
+hi CursorColumn guifg=NONE guibg=#ffffff gui=NONE
+hi! link CursorLine CursorColumn
+hi! link CursorLineNr CursorColumn
+hi! link QuickFixLine CursorColumn
 
 " }}}
 
@@ -82,7 +83,6 @@ hi FoldColumn guifg=#70a4b2 guibg=NONE gui=NONE
 hi IncSearch    guifg=#b8c76f guibg=#433900 gui=NONE
 hi Search       guifg=#ffffff guibg=#588d43 gui=NONE
 " Substitute
-hi QuickFixLine guifg=#000000 guibg=#9ad284 gui=NONE
 
 " }}}
 
