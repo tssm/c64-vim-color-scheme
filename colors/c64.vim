@@ -22,7 +22,7 @@ hi SpecialKey  guifg=#444444 guibg=NONE    gui=NONE
 
 " Side columns {{{
 
-hi LineNr      guifg=#444444 guibg=NONE    gui=NONE
+hi LineNr      guifg=#000000 guibg=NONE    gui=NONE
 hi! link EndOfBuffer LineNr
 hi! link NonText     LineNr
 hi SignColumn  guifg=NONE    guibg=NONE    gui=NONE
