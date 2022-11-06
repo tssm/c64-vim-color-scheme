@@ -80,8 +80,8 @@ hi! link FoldColumn LineNr
 
 " Search / Substitution {{{
 
-hi IncSearch    guifg=#b8c76f guibg=#433900 gui=NONE
-hi Search       guifg=#ffffff guibg=#588d43 gui=NONE
+hi IncSearch guifg=bg   guibg=#6c5eb5 gui=NONE
+hi Search    guifg=NONE guibg=#000000 gui=NONE
 " Substitute
 
 " }}}
